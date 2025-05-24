@@ -1,5 +1,8 @@
 # ATM System Project
 
+![image](https://github.com/user-attachments/assets/94ba38f4-3f48-429c-86c5-f413775d9c1b)
+
+
 ## Overview
 
 This repository contains the source code for an ATM (Automated Teller Machine) system implemented on an ATmega16 microcontroller. The system features user authentication for up to 10 users, balance checking, money transfer between users, and a transaction history display. The project uses an LCD for user interface, a keypad for input, and LEDs for status indication.
