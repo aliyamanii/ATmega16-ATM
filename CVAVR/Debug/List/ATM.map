@@ -1,0 +1,41 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+keypad                                                                            0x021F      16
+users                                                                             0x022F     140
+transactions                                                                      0x02BB      12
+input_username                                                                    0x02C7       6
+input_password                                                                    0x02CD       6
+recipient_username                                                                0x02D3       6
+input_amount                                                                      0x02D9       5
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+transaction_count                                                                 R5           1
+transaction_index                                                                 R4           1
+current_user_index                                                                R6,R7        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+lcd_init                                                                          0x00154     16
+lcd_data                                                                          0x001A5     76
+lcd_string                                                                        0x001F1     14
+keypad_scan                                                                       0x001FF     49
+clear_input                                                                       0x00230     16
+find_user                                                                         0x00240     17
+find_recipient                                                                    0x00251     26
+wait_for_hash                                                                     0x0026B      7
+add_transaction                                                                   0x00272     40
+main                                                                              0x0029A    541
+strcmp                                                                            0x004B7     20
+strlen                                                                            0x004CB     12
+strlenf                                                                           0x004D7     13
+put_buff_G101                                                                     0x004E4     62
+_print_G101                                                                       0x00522    308
+sprintf                                                                           0x00656     52
